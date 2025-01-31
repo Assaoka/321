@@ -65,8 +65,8 @@ with st.expander("Brasil (1990 a 2022) - IBGE (Tabela 6695)"):
 
 
 
-def Regioes(df, titulo):
-    regioes = st.multiselect("Selecione as regiões", ['Brasil', "Norte", "Nordeste", "Sudeste", "Sul", "Centro-Oeste"], default=['Brasil', "Norte", "Nordeste", "Sudeste", "Sul", "Centro-Oeste"])
+def Regioes(df, titulo, opcoes):
+    regioes = st.multiselect("Selecione as regiões", opcoes, default=opcoes)
     cores = px.colors.qualitative.Set1
     fig = go.Figure()
 
@@ -131,34 +131,41 @@ def ranking_regiao(df, regioes):
                  title="Ranking de Mortalidade Infantil por Estado (1990-2022)",
                     range_x=[0, df["Morte5"].max() + 5],
                     range_color=[0, df["Morte5"].max() + 5])
-    fig.update_layout(yaxis={"categoryorder": "total ascending"})
+    fig.update_layout(yaxis={"categoryorder": "total ascending"},
+                      height=650)
     st.plotly_chart(fig, use_container_width=True)
+def evolucao_nivel(df, nivel, ini=1990, fim=2022):
+    if nivel == 'Mun': df['Nível'] = 'Mun'
+    df = df[(df["Nível"] == nivel)]
+    df_diff = df[(df["Ano"] == ini)]
+    df_diff[fim] = df[df["Ano"] == fim]["Morte5"].values
+    df_diff['Diferença'] = df_diff[fim] - df_diff['Morte5']
+    df_diff['Variação (%)'] = (df_diff['Diferença'] / df_diff['Morte5']) * 100
+    df_diff = df_diff.drop(columns=["Ano", "Nível"]).sort_values("Diferença", ascending=True).reset_index(drop=True) 
+    df_diff.columns = ['Local', ini, fim, 'Variação', 'Variação (%)']
+    st.dataframe(df_diff, use_container_width=True)
 
-
-
-
-
-st.write("# Valores por Região")
-with st.expander("Evolução por Região"):
-    Regioes(pd.read_csv('Dados Tratados\ODS.csv'), 'Mortalidade Infantil por Região (1990-2022)')
-with st.expander("Mapa da Evolução por Região"):
-    st.write("Em construção... (O mapa das regiões vem aqui)")
-with st.expander("Proporção de Estados que atingiram a meta por Região"):
-    regioes = {
+regioes = {
         'Norte': ['Rondônia', 'Acre', 'Amazonas', 'Roraima', 'Pará', 'Amapá', 'Tocantins'],
         'Nordeste': ['Maranhão', 'Piauí', 'Ceará', 'Rio Grande do Norte', 'Paraíba', 'Pernambuco', 'Alagoas', 'Sergipe', 'Bahia'],
         'Sudeste': ['Minas Gerais', 'Espírito Santo', 'Rio de Janeiro', 'São Paulo'],
         'Sul': ['Paraná', 'Santa Catarina', 'Rio Grande do Sul'],
         'Centro-Oeste': ['Mato Grosso do Sul', 'Mato Grosso', 'Goiás', 'Distrito Federal']
-    }
-    regioes['Brasil'] = regioes['Norte'] + regioes['Nordeste'] + regioes['Sudeste'] + regioes['Sul'] + regioes['Centro-Oeste']
+}
+regioes['Brasil'] = regioes['Norte'] + regioes['Nordeste'] + regioes['Sudeste'] + regioes ['Sul'] + regioes['Centro-Oeste']
 
-    proporcao_regiao(pd.read_csv('Dados Tratados\ODS.csv'), regioes)
+    
+
+st.write("# Valores por Região")
+with st.expander("Evolução por Região"):
+    Regioes(pd.read_csv('Dados Tratados\ODS.csv'), 'Mortalidade Infantil por Região (1990-2022)',
+            ['Brasil', 'Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste'])
+with st.expander("Mapa da Evolução por Região"):
+    st.write("Em construção... (O mapa das regiões vem aqui)")
 with st.expander("Ranking de Mortalidade Infantil por Estado"):
     ranking_regiao(pd.read_csv('Dados Tratados\ODS.csv'), regioes)
-
-
-
+with st.expander("Diferença entre 1990 e 2022 por Região"):
+    evolucao_nivel(pd.read_csv('Dados Tratados\ODS.csv'), 'GR')
 
 
 
@@ -166,4 +173,38 @@ with st.expander("Ranking de Mortalidade Infantil por Estado"):
 
 st.write("# Valores por Estado")
 with st.expander("Evolução por Estado"):
-    st.write("Em construção... (O gráfico de evolução por estado vem aqui)")
+    for i in regioes:
+        if i == 'Brasil': continue
+        st.write(f"## {i}")
+        Regioes(pd.read_csv('Dados Tratados\ODS.csv'), 
+                f'Mortalidade Infantil por Estado ({i})', regioes[i]) 
+with st.expander("Mapa da Evolução por Estado"):
+    st.write("Em construção... (O mapa dos estados vem aqui)")
+with st.expander("Proporção de Estados que atingiram a meta por Região"):
+    proporcao_regiao(pd.read_csv('Dados Tratados\ODS.csv'), regioes)
+with st.expander("Ranking de Mortalidade Infantil por Estado"):
+    ranking_regiao(pd.read_csv('Dados Tratados\ODS.csv'), {i:i for i in regioes['Brasil']})
+with st.expander("Diferença entre 1990 e 2022 por Estado"):
+    evolucao_nivel(pd.read_csv('Dados Tratados\ODS.csv'), 'UF')
+
+
+st.write("# Municípios de São Paulo")
+with st.expander("Mapa dos Municípios de São Paulo"):
+    st.write("Em construção... (O mapa dos municípios de SP vem aqui)")
+with st.expander("Evolução por Município"):
+    df = pd.read_csv('Dados Tratados\Atlas_Municipios_SP.csv')
+    df['Morte5'] = df['Morte5'].apply(lambda x: x.replace(',', '.')).astype(float)
+    evolucao_nivel(df, 'Mun', ini=1991, fim=2010)
+
+st.write('# "Bairros" (UDHs) do Vale do Paraíba e Litoral Norte')
+with st.expander("Mapa dos 'Bairros' do Vale do Paraíba e Litoral Norte"):
+    st.write("Em construção... (O mapa das UDHs vem aqui)")
+with st.expander("Evolução por UDHs"):
+    df = pd.read_csv('Dados Tratados\Atlas_Vale.csv')
+    df_diff = df[(df["Ano"] == 2000)]
+    df_diff[2010] = df[df["Ano"] == 2010]["Morte5"].values
+    df_diff['Variação'] = df_diff[2010] - df_diff['Morte5']
+    df_diff['Variação (%)'] = (df_diff['Variação'] / df_diff['Morte5']) * 100
+    df_diff = df_diff.drop(columns=["Ano"]).sort_values("Variação", ascending=True).reset_index(drop=True)
+    df_diff.columns = [i if i != "Morte5" else 2000 for i in df_diff.columns]
+    st.dataframe(df_diff, use_container_width=True, hide_index=True)
