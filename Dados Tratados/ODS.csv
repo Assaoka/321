@@ -1,0 +1,1090 @@
+Local,Ano,Morte5,Nível
+Brasil,1990,53.7,BR
+Brasil,1991,50.7,BR
+Brasil,1992,47.8,BR
+Brasil,1993,45.2,BR
+Brasil,1994,42.6,BR
+Brasil,1995,40.2,BR
+Brasil,1996,38.0,BR
+Brasil,1997,35.8,BR
+Brasil,1998,33.8,BR
+Brasil,1999,31.9,BR
+Brasil,2000,30.1,BR
+Brasil,2001,28.7,BR
+Brasil,2002,27.2,BR
+Brasil,2003,26.1,BR
+Brasil,2004,25.0,BR
+Brasil,2005,23.7,BR
+Brasil,2006,22.7,BR
+Brasil,2007,21.6,BR
+Brasil,2008,20.5,BR
+Brasil,2009,19.6,BR
+Brasil,2010,18.6,BR
+Brasil,2011,17.7,BR
+Brasil,2012,17.3,BR
+Brasil,2013,16.7,BR
+Brasil,2014,16.3,BR
+Brasil,2015,15.8,BR
+Brasil,2016,16.4,BR
+Brasil,2017,15.6,BR
+Brasil,2018,15.2,BR
+Brasil,2019,15.4,BR
+Brasil,2020,14.0,BR
+Brasil,2021,14.5,BR
+Brasil,2022,15.5,BR
+Norte,1990,52.9,GR
+Norte,1991,51.3,GR
+Norte,1992,49.7,GR
+Norte,1993,48.1,GR
+Norte,1994,46.6,GR
+Norte,1995,45.2,GR
+Norte,1996,43.8,GR
+Norte,1997,42.4,GR
+Norte,1998,41.1,GR
+Norte,1999,39.9,GR
+Norte,2000,38.6,GR
+Norte,2001,37.7,GR
+Norte,2002,35.2,GR
+Norte,2003,34.6,GR
+Norte,2004,33.1,GR
+Norte,2005,32.1,GR
+Norte,2006,31.5,GR
+Norte,2007,29.7,GR
+Norte,2008,27.4,GR
+Norte,2009,26.5,GR
+Norte,2010,25.0,GR
+Norte,2011,23.7,GR
+Norte,2012,22.9,GR
+Norte,2013,21.6,GR
+Norte,2014,21.0,GR
+Norte,2015,20.9,GR
+Norte,2016,21.7,GR
+Norte,2017,20.4,GR
+Norte,2018,19.9,GR
+Norte,2019,19.9,GR
+Norte,2020,18.9,GR
+Norte,2021,19.5,GR
+Norte,2022,19.7,GR
+Nordeste,1990,87.3,GR
+Nordeste,1991,81.0,GR
+Nordeste,1992,75.1,GR
+Nordeste,1993,69.7,GR
+Nordeste,1994,64.6,GR
+Nordeste,1995,59.9,GR
+Nordeste,1996,55.6,GR
+Nordeste,1997,51.6,GR
+Nordeste,1998,47.8,GR
+Nordeste,1999,44.4,GR
+Nordeste,2000,41.2,GR
+Nordeste,2001,38.3,GR
+Nordeste,2002,35.5,GR
+Nordeste,2003,33.8,GR
+Nordeste,2004,32.1,GR
+Nordeste,2005,29.9,GR
+Nordeste,2006,28.5,GR
+Nordeste,2007,26.8,GR
+Nordeste,2008,25.2,GR
+Nordeste,2009,23.5,GR
+Nordeste,2010,22.1,GR
+Nordeste,2011,20.7,GR
+Nordeste,2012,20.0,GR
+Nordeste,2013,19.0,GR
+Nordeste,2014,18.7,GR
+Nordeste,2015,18.0,GR
+Nordeste,2016,19.0,GR
+Nordeste,2017,18.2,GR
+Nordeste,2018,17.4,GR
+Nordeste,2019,17.5,GR
+Nordeste,2020,16.3,GR
+Nordeste,2021,16.4,GR
+Nordeste,2022,17.5,GR
+Sudeste,1990,36.6,GR
+Sudeste,1991,35.0,GR
+Sudeste,1992,33.4,GR
+Sudeste,1993,31.9,GR
+Sudeste,1994,30.4,GR
+Sudeste,1995,29.1,GR
+Sudeste,1996,27.8,GR
+Sudeste,1997,26.5,GR
+Sudeste,1998,25.3,GR
+Sudeste,1999,24.2,GR
+Sudeste,2000,23.1,GR
+Sudeste,2001,22.0,GR
+Sudeste,2002,21.1,GR
+Sudeste,2003,20.2,GR
+Sudeste,2004,19.4,GR
+Sudeste,2005,18.6,GR
+Sudeste,2006,17.8,GR
+Sudeste,2007,17.2,GR
+Sudeste,2008,16.6,GR
+Sudeste,2009,16.1,GR
+Sudeste,2010,15.5,GR
+Sudeste,2011,15.0,GR
+Sudeste,2012,14.8,GR
+Sudeste,2013,14.5,GR
+Sudeste,2014,14.2,GR
+Sudeste,2015,13.9,GR
+Sudeste,2016,14.2,GR
+Sudeste,2017,13.5,GR
+Sudeste,2018,13.3,GR
+Sudeste,2019,13.8,GR
+Sudeste,2020,12.2,GR
+Sudeste,2021,12.8,GR
+Sudeste,2022,13.9,GR
+Sul,1990,35.2,GR
+Sul,1991,33.2,GR
+Sul,1992,31.4,GR
+Sul,1993,29.6,GR
+Sul,1994,28.0,GR
+Sul,1995,26.4,GR
+Sul,1996,25.0,GR
+Sul,1997,23.6,GR
+Sul,1998,22.2,GR
+Sul,1999,21.0,GR
+Sul,2000,19.8,GR
+Sul,2001,19.4,GR
+Sul,2002,19.0,GR
+Sul,2003,18.4,GR
+Sul,2004,17.5,GR
+Sul,2005,16.5,GR
+Sul,2006,15.7,GR
+Sul,2007,15.3,GR
+Sul,2008,14.6,GR
+Sul,2009,14.0,GR
+Sul,2010,13.5,GR
+Sul,2011,13.1,GR
+Sul,2012,12.9,GR
+Sul,2013,12.6,GR
+Sul,2014,12.4,GR
+Sul,2015,11.9,GR
+Sul,2016,11.7,GR
+Sul,2017,11.7,GR
+Sul,2018,11.6,GR
+Sul,2019,11.8,GR
+Sul,2020,10.4,GR
+Sul,2021,11.0,GR
+Sul,2022,12.1,GR
+Centro-Oeste,1990,41.0,GR
+Centro-Oeste,1991,39.2,GR
+Centro-Oeste,1992,37.4,GR
+Centro-Oeste,1993,35.7,GR
+Centro-Oeste,1994,34.1,GR
+Centro-Oeste,1995,32.6,GR
+Centro-Oeste,1996,31.2,GR
+Centro-Oeste,1997,29.8,GR
+Centro-Oeste,1998,28.4,GR
+Centro-Oeste,1999,27.2,GR
+Centro-Oeste,2000,26.0,GR
+Centro-Oeste,2001,24.9,GR
+Centro-Oeste,2002,24.1,GR
+Centro-Oeste,2003,23.8,GR
+Centro-Oeste,2004,23.0,GR
+Centro-Oeste,2005,22.4,GR
+Centro-Oeste,2006,21.6,GR
+Centro-Oeste,2007,20.7,GR
+Centro-Oeste,2008,19.9,GR
+Centro-Oeste,2009,19.2,GR
+Centro-Oeste,2010,18.6,GR
+Centro-Oeste,2011,18.0,GR
+Centro-Oeste,2012,17.9,GR
+Centro-Oeste,2013,18.0,GR
+Centro-Oeste,2014,17.7,GR
+Centro-Oeste,2015,17.7,GR
+Centro-Oeste,2016,17.1,GR
+Centro-Oeste,2017,15.3,GR
+Centro-Oeste,2018,15.3,GR
+Centro-Oeste,2019,15.4,GR
+Centro-Oeste,2020,14.0,GR
+Centro-Oeste,2021,14.5,GR
+Centro-Oeste,2022,15.7,GR
+Rondônia,1990,49.2,UF
+Rondônia,1991,47.7,UF
+Rondônia,1992,46.3,UF
+Rondônia,1993,44.9,UF
+Rondônia,1994,43.6,UF
+Rondônia,1995,42.3,UF
+Rondônia,1996,41.0,UF
+Rondônia,1997,39.8,UF
+Rondônia,1998,38.6,UF
+Rondônia,1999,37.4,UF
+Rondônia,2000,36.3,UF
+Rondônia,2001,35.0,UF
+Rondônia,2002,31.3,UF
+Rondônia,2003,30.9,UF
+Rondônia,2004,30.1,UF
+Rondônia,2005,28.7,UF
+Rondônia,2006,28.7,UF
+Rondônia,2007,26.6,UF
+Rondônia,2008,24.8,UF
+Rondônia,2009,23.4,UF
+Rondônia,2010,21.9,UF
+Rondônia,2011,19.7,UF
+Rondônia,2012,18.3,UF
+Rondônia,2013,17.3,UF
+Rondônia,2014,17.3,UF
+Rondônia,2015,17.0,UF
+Rondônia,2016,17.2,UF
+Rondônia,2017,16.3,UF
+Rondônia,2018,15.6,UF
+Rondônia,2019,14.8,UF
+Rondônia,2020,15.7,UF
+Rondônia,2021,15.3,UF
+Rondônia,2022,17.0,UF
+Acre,1990,65.1,UF
+Acre,1991,60.9,UF
+Acre,1992,57.0,UF
+Acre,1993,53.4,UF
+Acre,1994,49.9,UF
+Acre,1995,46.7,UF
+Acre,1996,43.7,UF
+Acre,1997,40.9,UF
+Acre,1998,38.3,UF
+Acre,1999,35.8,UF
+Acre,2000,33.5,UF
+Acre,2001,34.1,UF
+Acre,2002,30.7,UF
+Acre,2003,28.7,UF
+Acre,2004,29.6,UF
+Acre,2005,29.2,UF
+Acre,2006,29.6,UF
+Acre,2007,28.4,UF
+Acre,2008,26.9,UF
+Acre,2009,25.5,UF
+Acre,2010,24.0,UF
+Acre,2011,21.9,UF
+Acre,2012,20.1,UF
+Acre,2013,20.1,UF
+Acre,2014,19.6,UF
+Acre,2015,18.8,UF
+Acre,2016,19.5,UF
+Acre,2017,17.6,UF
+Acre,2018,19.5,UF
+Acre,2019,19.5,UF
+Acre,2020,19.3,UF
+Acre,2021,21.6,UF
+Acre,2022,21.5,UF
+Amazonas,1990,51.3,UF
+Amazonas,1991,50.2,UF
+Amazonas,1992,49.2,UF
+Amazonas,1993,48.1,UF
+Amazonas,1994,47.1,UF
+Amazonas,1995,46.1,UF
+Amazonas,1996,45.1,UF
+Amazonas,1997,44.1,UF
+Amazonas,1998,43.2,UF
+Amazonas,1999,42.3,UF
+Amazonas,2000,41.4,UF
+Amazonas,2001,40.4,UF
+Amazonas,2002,36.2,UF
+Amazonas,2003,34.9,UF
+Amazonas,2004,32.8,UF
+Amazonas,2005,30.9,UF
+Amazonas,2006,31.3,UF
+Amazonas,2007,29.5,UF
+Amazonas,2008,26.8,UF
+Amazonas,2009,26.2,UF
+Amazonas,2010,25.2,UF
+Amazonas,2011,24.0,UF
+Amazonas,2012,24.0,UF
+Amazonas,2013,22.7,UF
+Amazonas,2014,22.2,UF
+Amazonas,2015,21.6,UF
+Amazonas,2016,22.4,UF
+Amazonas,2017,22.2,UF
+Amazonas,2018,21.7,UF
+Amazonas,2019,21.5,UF
+Amazonas,2020,18.7,UF
+Amazonas,2021,20.2,UF
+Amazonas,2022,21.4,UF
+Roraima,1990,45.7,UF
+Roraima,1991,43.6,UF
+Roraima,1992,41.5,UF
+Roraima,1993,39.6,UF
+Roraima,1994,37.8,UF
+Roraima,1995,36.0,UF
+Roraima,1996,34.3,UF
+Roraima,1997,32.7,UF
+Roraima,1998,31.2,UF
+Roraima,1999,29.7,UF
+Roraima,2000,28.3,UF
+Roraima,2001,26.3,UF
+Roraima,2002,24.5,UF
+Roraima,2003,26.1,UF
+Roraima,2004,26.9,UF
+Roraima,2005,27.8,UF
+Roraima,2006,27.6,UF
+Roraima,2007,26.7,UF
+Roraima,2008,24.8,UF
+Roraima,2009,23.1,UF
+Roraima,2010,22.1,UF
+Roraima,2011,19.0,UF
+Roraima,2012,22.3,UF
+Roraima,2013,23.6,UF
+Roraima,2014,22.3,UF
+Roraima,2015,22.0,UF
+Roraima,2016,25.8,UF
+Roraima,2017,23.3,UF
+Roraima,2018,25.1,UF
+Roraima,2019,23.4,UF
+Roraima,2020,23.0,UF
+Roraima,2021,26.2,UF
+Roraima,2022,25.1,UF
+Pará,1990,53.3,UF
+Pará,1991,51.6,UF
+Pará,1992,49.9,UF
+Pará,1993,48.3,UF
+Pará,1994,46.8,UF
+Pará,1995,45.3,UF
+Pará,1996,43.8,UF
+Pará,1997,42.4,UF
+Pará,1998,41.0,UF
+Pará,1999,39.7,UF
+Pará,2000,38.4,UF
+Pará,2001,38.0,UF
+Pará,2002,36.5,UF
+Pará,2003,36.8,UF
+Pará,2004,34.8,UF
+Pará,2005,34.1,UF
+Pará,2006,32.6,UF
+Pará,2007,30.4,UF
+Pará,2008,28.0,UF
+Pará,2009,27.3,UF
+Pará,2010,25.6,UF
+Pará,2011,24.5,UF
+Pará,2012,23.2,UF
+Pará,2013,21.7,UF
+Pará,2014,20.9,UF
+Pará,2015,19.6,UF
+Pará,2016,22.0,UF
+Pará,2017,19.9,UF
+Pará,2018,18.9,UF
+Pará,2019,19.3,UF
+Pará,2020,19.0,UF
+Pará,2021,18.3,UF
+Pará,2022,18.6,UF
+Amapá,1990,43.9,UF
+Amapá,1991,43.2,UF
+Amapá,1992,42.4,UF
+Amapá,1993,41.7,UF
+Amapá,1994,40.9,UF
+Amapá,1995,40.2,UF
+Amapá,1996,39.5,UF
+Amapá,1997,38.8,UF
+Amapá,1998,38.2,UF
+Amapá,1999,37.5,UF
+Amapá,2000,36.8,UF
+Amapá,2001,33.4,UF
+Amapá,2002,31.4,UF
+Amapá,2003,32.6,UF
+Amapá,2004,30.7,UF
+Amapá,2005,31.2,UF
+Amapá,2006,30.5,UF
+Amapá,2007,33.1,UF
+Amapá,2008,32.2,UF
+Amapá,2009,32.4,UF
+Amapá,2010,29.4,UF
+Amapá,2011,27.7,UF
+Amapá,2012,27.1,UF
+Amapá,2013,25.4,UF
+Amapá,2014,25.2,UF
+Amapá,2015,25.0,UF
+Amapá,2016,26.8,UF
+Amapá,2017,28.0,UF
+Amapá,2018,25.7,UF
+Amapá,2019,27.5,UF
+Amapá,2020,24.8,UF
+Amapá,2021,27.1,UF
+Amapá,2022,23.5,UF
+Tocantins,1990,51.8,UF
+Tocantins,1991,50.8,UF
+Tocantins,1992,49.8,UF
+Tocantins,1993,48.8,UF
+Tocantins,1994,47.9,UF
+Tocantins,1995,47.0,UF
+Tocantins,1996,46.1,UF
+Tocantins,1997,45.2,UF
+Tocantins,1998,44.3,UF
+Tocantins,1999,43.4,UF
+Tocantins,2000,42.6,UF
+Tocantins,2001,40.7,UF
+Tocantins,2002,37.4,UF
+Tocantins,2003,34.4,UF
+Tocantins,2004,33.8,UF
+Tocantins,2005,32.2,UF
+Tocantins,2006,32.2,UF
+Tocantins,2007,29.1,UF
+Tocantins,2008,26.6,UF
+Tocantins,2009,25.2,UF
+Tocantins,2010,24.0,UF
+Tocantins,2011,22.7,UF
+Tocantins,2012,21.6,UF
+Tocantins,2013,20.0,UF
+Tocantins,2014,19.8,UF
+Tocantins,2015,18.6,UF
+Tocantins,2016,19.1,UF
+Tocantins,2017,17.8,UF
+Tocantins,2018,18.3,UF
+Tocantins,2019,16.9,UF
+Tocantins,2020,15.5,UF
+Tocantins,2021,17.8,UF
+Tocantins,2022,16.7,UF
+Maranhão,1990,88.2,UF
+Maranhão,1991,82.1,UF
+Maranhão,1992,76.4,UF
+Maranhão,1993,71.1,UF
+Maranhão,1994,66.2,UF
+Maranhão,1995,61.6,UF
+Maranhão,1996,57.3,UF
+Maranhão,1997,53.3,UF
+Maranhão,1998,49.6,UF
+Maranhão,1999,46.2,UF
+Maranhão,2000,43.0,UF
+Maranhão,2001,38.5,UF
+Maranhão,2002,36.3,UF
+Maranhão,2003,33.7,UF
+Maranhão,2004,33.2,UF
+Maranhão,2005,31.7,UF
+Maranhão,2006,31.9,UF
+Maranhão,2007,30.6,UF
+Maranhão,2008,28.8,UF
+Maranhão,2009,27.2,UF
+Maranhão,2010,25.8,UF
+Maranhão,2011,23.6,UF
+Maranhão,2012,22.5,UF
+Maranhão,2013,19.6,UF
+Maranhão,2014,19.5,UF
+Maranhão,2015,19.1,UF
+Maranhão,2016,19.1,UF
+Maranhão,2017,20.3,UF
+Maranhão,2018,19.2,UF
+Maranhão,2019,19.3,UF
+Maranhão,2020,18.7,UF
+Maranhão,2021,18.2,UF
+Maranhão,2022,19.6,UF
+Piauí,1990,74.9,UF
+Piauí,1991,70.6,UF
+Piauí,1992,66.7,UF
+Piauí,1993,62.9,UF
+Piauí,1994,59.3,UF
+Piauí,1995,56.0,UF
+Piauí,1996,52.8,UF
+Piauí,1997,49.9,UF
+Piauí,1998,47.0,UF
+Piauí,1999,44.4,UF
+Piauí,2000,41.9,UF
+Piauí,2001,39.6,UF
+Piauí,2002,35.9,UF
+Piauí,2003,34.2,UF
+Piauí,2004,32.2,UF
+Piauí,2005,31.0,UF
+Piauí,2006,30.2,UF
+Piauí,2007,28.2,UF
+Piauí,2008,27.0,UF
+Piauí,2009,25.2,UF
+Piauí,2010,23.7,UF
+Piauí,2011,23.6,UF
+Piauí,2012,22.3,UF
+Piauí,2013,20.9,UF
+Piauí,2014,20.6,UF
+Piauí,2015,19.4,UF
+Piauí,2016,22.3,UF
+Piauí,2017,21.1,UF
+Piauí,2018,20.6,UF
+Piauí,2019,20.0,UF
+Piauí,2020,18.5,UF
+Piauí,2021,17.8,UF
+Piauí,2022,20.1,UF
+Ceará,1990,91.6,UF
+Ceará,1991,84.9,UF
+Ceará,1992,78.6,UF
+Ceará,1993,72.7,UF
+Ceará,1994,67.3,UF
+Ceará,1995,62.4,UF
+Ceará,1996,57.7,UF
+Ceará,1997,53.5,UF
+Ceará,1998,49.5,UF
+Ceará,1999,45.8,UF
+Ceará,2000,42.4,UF
+Ceará,2001,36.9,UF
+Ceará,2002,34.9,UF
+Ceará,2003,33.7,UF
+Ceará,2004,30.8,UF
+Ceará,2005,27.9,UF
+Ceará,2006,25.5,UF
+Ceará,2007,24.4,UF
+Ceará,2008,22.1,UF
+Ceará,2009,20.4,UF
+Ceará,2010,18.9,UF
+Ceará,2011,17.7,UF
+Ceará,2012,17.1,UF
+Ceará,2013,16.2,UF
+Ceará,2014,15.7,UF
+Ceará,2015,15.4,UF
+Ceará,2016,16.8,UF
+Ceará,2017,17.0,UF
+Ceará,2018,15.6,UF
+Ceará,2019,15.7,UF
+Ceará,2020,14.7,UF
+Ceará,2021,13.7,UF
+Ceará,2022,14.6,UF
+Rio Grande do Norte,1990,87.2,UF
+Rio Grande do Norte,1991,80.5,UF
+Rio Grande do Norte,1992,74.2,UF
+Rio Grande do Norte,1993,68.5,UF
+Rio Grande do Norte,1994,63.2,UF
+Rio Grande do Norte,1995,58.3,UF
+Rio Grande do Norte,1996,53.8,UF
+Rio Grande do Norte,1997,49.6,UF
+Rio Grande do Norte,1998,45.8,UF
+Rio Grande do Norte,1999,42.3,UF
+Rio Grande do Norte,2000,39.0,UF
+Rio Grande do Norte,2001,35.9,UF
+Rio Grande do Norte,2002,34.3,UF
+Rio Grande do Norte,2003,33.0,UF
+Rio Grande do Norte,2004,30.9,UF
+Rio Grande do Norte,2005,28.8,UF
+Rio Grande do Norte,2006,27.6,UF
+Rio Grande do Norte,2007,25.1,UF
+Rio Grande do Norte,2008,24.3,UF
+Rio Grande do Norte,2009,21.8,UF
+Rio Grande do Norte,2010,19.6,UF
+Rio Grande do Norte,2011,19.0,UF
+Rio Grande do Norte,2012,19.0,UF
+Rio Grande do Norte,2013,18.1,UF
+Rio Grande do Norte,2014,17.9,UF
+Rio Grande do Norte,2015,17.5,UF
+Rio Grande do Norte,2016,18.0,UF
+Rio Grande do Norte,2017,16.8,UF
+Rio Grande do Norte,2018,16.1,UF
+Rio Grande do Norte,2019,16.7,UF
+Rio Grande do Norte,2020,14.7,UF
+Rio Grande do Norte,2021,15.5,UF
+Rio Grande do Norte,2022,15.0,UF
+Paraíba,1990,94.4,UF
+Paraíba,1991,87.5,UF
+Paraíba,1992,81.1,UF
+Paraíba,1993,75.2,UF
+Paraíba,1994,69.7,UF
+Paraíba,1995,64.6,UF
+Paraíba,1996,59.9,UF
+Paraíba,1997,55.6,UF
+Paraíba,1998,51.5,UF
+Paraíba,1999,47.7,UF
+Paraíba,2000,44.3,UF
+Paraíba,2001,41.2,UF
+Paraíba,2002,35.1,UF
+Paraíba,2003,33.4,UF
+Paraíba,2004,30.6,UF
+Paraíba,2005,28.7,UF
+Paraíba,2006,27.2,UF
+Paraíba,2007,25.8,UF
+Paraíba,2008,24.4,UF
+Paraíba,2009,22.2,UF
+Paraíba,2010,20.8,UF
+Paraíba,2011,19.9,UF
+Paraíba,2012,19.4,UF
+Paraíba,2013,18.5,UF
+Paraíba,2014,18.3,UF
+Paraíba,2015,17.7,UF
+Paraíba,2016,17.9,UF
+Paraíba,2017,17.6,UF
+Paraíba,2018,15.8,UF
+Paraíba,2019,17.5,UF
+Paraíba,2020,16.2,UF
+Paraíba,2021,16.4,UF
+Paraíba,2022,19.2,UF
+Pernambuco,1990,88.7,UF
+Pernambuco,1991,81.7,UF
+Pernambuco,1992,75.2,UF
+Pernambuco,1993,69.2,UF
+Pernambuco,1994,63.7,UF
+Pernambuco,1995,58.7,UF
+Pernambuco,1996,54.0,UF
+Pernambuco,1997,49.7,UF
+Pernambuco,1998,45.8,UF
+Pernambuco,1999,42.1,UF
+Pernambuco,2000,38.8,UF
+Pernambuco,2001,35.5,UF
+Pernambuco,2002,33.6,UF
+Pernambuco,2003,32.2,UF
+Pernambuco,2004,30.6,UF
+Pernambuco,2005,26.9,UF
+Pernambuco,2006,25.3,UF
+Pernambuco,2007,23.2,UF
+Pernambuco,2008,22.4,UF
+Pernambuco,2009,20.9,UF
+Pernambuco,2010,19.8,UF
+Pernambuco,2011,18.1,UF
+Pernambuco,2012,17.9,UF
+Pernambuco,2013,17.3,UF
+Pernambuco,2014,16.9,UF
+Pernambuco,2015,16.6,UF
+Pernambuco,2016,18.3,UF
+Pernambuco,2017,15.7,UF
+Pernambuco,2018,15.4,UF
+Pernambuco,2019,15.0,UF
+Pernambuco,2020,13.7,UF
+Pernambuco,2021,14.4,UF
+Pernambuco,2022,15.8,UF
+Alagoas,1990,117.8,UF
+Alagoas,1991,106.6,UF
+Alagoas,1992,96.5,UF
+Alagoas,1993,87.4,UF
+Alagoas,1994,79.1,UF
+Alagoas,1995,71.7,UF
+Alagoas,1996,64.9,UF
+Alagoas,1997,58.7,UF
+Alagoas,1998,53.2,UF
+Alagoas,1999,48.2,UF
+Alagoas,2000,43.6,UF
+Alagoas,2001,42.0,UF
+Alagoas,2002,39.4,UF
+Alagoas,2003,36.6,UF
+Alagoas,2004,33.8,UF
+Alagoas,2005,31.8,UF
+Alagoas,2006,29.7,UF
+Alagoas,2007,26.8,UF
+Alagoas,2008,25.2,UF
+Alagoas,2009,23.3,UF
+Alagoas,2010,21.9,UF
+Alagoas,2011,20.1,UF
+Alagoas,2012,19.2,UF
+Alagoas,2013,18.5,UF
+Alagoas,2014,18.3,UF
+Alagoas,2015,17.5,UF
+Alagoas,2016,18.2,UF
+Alagoas,2017,17.2,UF
+Alagoas,2018,16.0,UF
+Alagoas,2019,17.0,UF
+Alagoas,2020,15.2,UF
+Alagoas,2021,17.0,UF
+Alagoas,2022,16.6,UF
+Sergipe,1990,75.5,UF
+Sergipe,1991,71.4,UF
+Sergipe,1992,67.5,UF
+Sergipe,1993,63.8,UF
+Sergipe,1994,60.3,UF
+Sergipe,1995,56.9,UF
+Sergipe,1996,53.8,UF
+Sergipe,1997,50.9,UF
+Sergipe,1998,48.1,UF
+Sergipe,1999,45.4,UF
+Sergipe,2000,42.9,UF
+Sergipe,2001,40.6,UF
+Sergipe,2002,38.4,UF
+Sergipe,2003,34.7,UF
+Sergipe,2004,32.8,UF
+Sergipe,2005,31.0,UF
+Sergipe,2006,29.0,UF
+Sergipe,2007,26.3,UF
+Sergipe,2008,23.7,UF
+Sergipe,2009,22.0,UF
+Sergipe,2010,21.1,UF
+Sergipe,2011,20.3,UF
+Sergipe,2012,20.3,UF
+Sergipe,2013,20.1,UF
+Sergipe,2014,20.0,UF
+Sergipe,2015,19.9,UF
+Sergipe,2016,19.9,UF
+Sergipe,2017,19.2,UF
+Sergipe,2018,19.4,UF
+Sergipe,2019,19.7,UF
+Sergipe,2020,18.1,UF
+Sergipe,2021,16.5,UF
+Sergipe,2022,20.7,UF
+Bahia,1990,76.1,UF
+Bahia,1991,71.2,UF
+Bahia,1992,66.7,UF
+Bahia,1993,62.5,UF
+Bahia,1994,58.5,UF
+Bahia,1995,54.8,UF
+Bahia,1996,51.3,UF
+Bahia,1997,48.1,UF
+Bahia,1998,45.0,UF
+Bahia,1999,42.2,UF
+Bahia,2000,39.5,UF
+Bahia,2001,39.1,UF
+Bahia,2002,35.5,UF
+Bahia,2003,34.3,UF
+Bahia,2004,33.1,UF
+Bahia,2005,31.5,UF
+Bahia,2006,30.0,UF
+Bahia,2007,28.6,UF
+Bahia,2008,27.0,UF
+Bahia,2009,25.5,UF
+Bahia,2010,24.1,UF
+Bahia,2011,22.8,UF
+Bahia,2012,21.6,UF
+Bahia,2013,21.2,UF
+Bahia,2014,21.1,UF
+Bahia,2015,20.9,UF
+Bahia,2016,20.5,UF
+Bahia,2017,19.2,UF
+Bahia,2018,18.9,UF
+Bahia,2019,18.9,UF
+Bahia,2020,17.5,UF
+Bahia,2021,18.0,UF
+Bahia,2022,18.4,UF
+Minas Gerais,1990,43.7,UF
+Minas Gerais,1991,42.0,UF
+Minas Gerais,1992,40.4,UF
+Minas Gerais,1993,38.8,UF
+Minas Gerais,1994,37.3,UF
+Minas Gerais,1995,35.8,UF
+Minas Gerais,1996,34.4,UF
+Minas Gerais,1997,33.1,UF
+Minas Gerais,1998,31.8,UF
+Minas Gerais,1999,30.6,UF
+Minas Gerais,2000,29.4,UF
+Minas Gerais,2001,28.1,UF
+Minas Gerais,2002,26.6,UF
+Minas Gerais,2003,25.2,UF
+Minas Gerais,2004,24.2,UF
+Minas Gerais,2005,23.2,UF
+Minas Gerais,2006,22.0,UF
+Minas Gerais,2007,21.1,UF
+Minas Gerais,2008,20.2,UF
+Minas Gerais,2009,19.5,UF
+Minas Gerais,2010,18.5,UF
+Minas Gerais,2011,17.8,UF
+Minas Gerais,2012,17.2,UF
+Minas Gerais,2013,16.6,UF
+Minas Gerais,2014,16.5,UF
+Minas Gerais,2015,15.9,UF
+Minas Gerais,2016,16.1,UF
+Minas Gerais,2017,15.4,UF
+Minas Gerais,2018,14.4,UF
+Minas Gerais,2019,15.1,UF
+Minas Gerais,2020,13.1,UF
+Minas Gerais,2021,13.1,UF
+Minas Gerais,2022,13.9,UF
+Espírito Santo,1990,37.3,UF
+Espírito Santo,1991,35.2,UF
+Espírito Santo,1992,33.3,UF
+Espírito Santo,1993,31.4,UF
+Espírito Santo,1994,29.7,UF
+Espírito Santo,1995,28.0,UF
+Espírito Santo,1996,26.5,UF
+Espírito Santo,1997,25.0,UF
+Espírito Santo,1998,23.6,UF
+Espírito Santo,1999,22.3,UF
+Espírito Santo,2000,21.0,UF
+Espírito Santo,2001,20.4,UF
+Espírito Santo,2002,19.7,UF
+Espírito Santo,2003,18.6,UF
+Espírito Santo,2004,18.3,UF
+Espírito Santo,2005,17.9,UF
+Espírito Santo,2006,17.8,UF
+Espírito Santo,2007,17.4,UF
+Espírito Santo,2008,16.0,UF
+Espírito Santo,2009,15.1,UF
+Espírito Santo,2010,14.1,UF
+Espírito Santo,2011,13.9,UF
+Espírito Santo,2012,13.7,UF
+Espírito Santo,2013,13.4,UF
+Espírito Santo,2014,13.3,UF
+Espírito Santo,2015,13.3,UF
+Espírito Santo,2016,14.2,UF
+Espírito Santo,2017,12.6,UF
+Espírito Santo,2018,12.4,UF
+Espírito Santo,2019,12.6,UF
+Espírito Santo,2020,11.4,UF
+Espírito Santo,2021,13.3,UF
+Espírito Santo,2022,13.5,UF
+Rio de Janeiro,1990,36.3,UF
+Rio de Janeiro,1991,34.8,UF
+Rio de Janeiro,1992,33.3,UF
+Rio de Janeiro,1993,31.8,UF
+Rio de Janeiro,1994,30.5,UF
+Rio de Janeiro,1995,29.2,UF
+Rio de Janeiro,1996,27.9,UF
+Rio de Janeiro,1997,26.7,UF
+Rio de Janeiro,1998,25.6,UF
+Rio de Janeiro,1999,24.5,UF
+Rio de Janeiro,2000,23.4,UF
+Rio de Janeiro,2001,22.2,UF
+Rio de Janeiro,2002,21.7,UF
+Rio de Janeiro,2003,21.3,UF
+Rio de Janeiro,2004,20.5,UF
+Rio de Janeiro,2005,19.4,UF
+Rio de Janeiro,2006,18.4,UF
+Rio de Janeiro,2007,17.6,UF
+Rio de Janeiro,2008,17.2,UF
+Rio de Janeiro,2009,16.9,UF
+Rio de Janeiro,2010,16.7,UF
+Rio de Janeiro,2011,16.4,UF
+Rio de Janeiro,2012,16.0,UF
+Rio de Janeiro,2013,15.4,UF
+Rio de Janeiro,2014,14.6,UF
+Rio de Janeiro,2015,14.4,UF
+Rio de Janeiro,2016,15.8,UF
+Rio de Janeiro,2017,14.4,UF
+Rio de Janeiro,2018,14.7,UF
+Rio de Janeiro,2019,15.3,UF
+Rio de Janeiro,2020,14.3,UF
+Rio de Janeiro,2021,14.6,UF
+Rio de Janeiro,2022,15.7,UF
+São Paulo,1990,34.6,UF
+São Paulo,1991,32.7,UF
+São Paulo,1992,31.0,UF
+São Paulo,1993,29.4,UF
+São Paulo,1994,27.8,UF
+São Paulo,1995,26.3,UF
+São Paulo,1996,24.9,UF
+São Paulo,1997,23.6,UF
+São Paulo,1998,22.4,UF
+São Paulo,1999,21.2,UF
+São Paulo,2000,20.1,UF
+São Paulo,2001,19.1,UF
+São Paulo,2002,18.3,UF
+São Paulo,2003,17.5,UF
+São Paulo,2004,16.8,UF
+São Paulo,2005,16.1,UF
+São Paulo,2006,15.6,UF
+São Paulo,2007,15.2,UF
+São Paulo,2008,14.8,UF
+São Paulo,2009,14.3,UF
+São Paulo,2010,13.9,UF
+São Paulo,2011,13.4,UF
+São Paulo,2012,13.3,UF
+São Paulo,2013,13.2,UF
+São Paulo,2014,13.1,UF
+São Paulo,2015,12.2,UF
+São Paulo,2016,12.8,UF
+São Paulo,2017,12.5,UF
+São Paulo,2018,12.4,UF
+São Paulo,2019,12.8,UF
+São Paulo,2020,11.1,UF
+São Paulo,2021,11.9,UF
+São Paulo,2022,13.3,UF
+Paraná,1990,43.7,UF
+Paraná,1991,40.8,UF
+Paraná,1992,38.2,UF
+Paraná,1993,35.7,UF
+Paraná,1994,33.3,UF
+Paraná,1995,31.2,UF
+Paraná,1996,29.1,UF
+Paraná,1997,27.2,UF
+Paraná,1998,25.5,UF
+Paraná,1999,23.8,UF
+Paraná,2000,22.3,UF
+Paraná,2001,21.1,UF
+Paraná,2002,20.0,UF
+Paraná,2003,19.2,UF
+Paraná,2004,18.3,UF
+Paraná,2005,17.3,UF
+Paraná,2006,16.4,UF
+Paraná,2007,15.8,UF
+Paraná,2008,15.2,UF
+Paraná,2009,14.7,UF
+Paraná,2010,13.9,UF
+Paraná,2011,13.6,UF
+Paraná,2012,13.3,UF
+Paraná,2013,13.1,UF
+Paraná,2014,12.9,UF
+Paraná,2015,12.4,UF
+Paraná,2016,12.4,UF
+Paraná,2017,11.8,UF
+Paraná,2018,12.2,UF
+Paraná,2019,12.2,UF
+Paraná,2020,10.7,UF
+Paraná,2021,10.9,UF
+Paraná,2022,12.5,UF
+Santa Catarina,1990,41.8,UF
+Santa Catarina,1991,38.5,UF
+Santa Catarina,1992,35.5,UF
+Santa Catarina,1993,32.8,UF
+Santa Catarina,1994,30.2,UF
+Santa Catarina,1995,27.9,UF
+Santa Catarina,1996,25.7,UF
+Santa Catarina,1997,23.7,UF
+Santa Catarina,1998,21.9,UF
+Santa Catarina,1999,20.2,UF
+Santa Catarina,2000,18.6,UF
+Santa Catarina,2001,18.3,UF
+Santa Catarina,2002,17.7,UF
+Santa Catarina,2003,16.9,UF
+Santa Catarina,2004,15.8,UF
+Santa Catarina,2005,15.2,UF
+Santa Catarina,2006,14.7,UF
+Santa Catarina,2007,14.3,UF
+Santa Catarina,2008,13.8,UF
+Santa Catarina,2009,13.1,UF
+Santa Catarina,2010,12.9,UF
+Santa Catarina,2011,12.5,UF
+Santa Catarina,2012,12.6,UF
+Santa Catarina,2013,12.1,UF
+Santa Catarina,2014,11.6,UF
+Santa Catarina,2015,11.4,UF
+Santa Catarina,2016,10.3,UF
+Santa Catarina,2017,11.4,UF
+Santa Catarina,2018,10.8,UF
+Santa Catarina,2019,10.9,UF
+Santa Catarina,2020,10.5,UF
+Santa Catarina,2021,10.5,UF
+Santa Catarina,2022,11.5,UF
+Rio Grande do Sul,1990,32.7,UF
+Rio Grande do Sul,1991,30.8,UF
+Rio Grande do Sul,1992,29.0,UF
+Rio Grande do Sul,1993,27.3,UF
+Rio Grande do Sul,1994,25.7,UF
+Rio Grande do Sul,1995,24.3,UF
+Rio Grande do Sul,1996,22.9,UF
+Rio Grande do Sul,1997,21.5,UF
+Rio Grande do Sul,1998,20.3,UF
+Rio Grande do Sul,1999,19.1,UF
+Rio Grande do Sul,2000,18.0,UF
+Rio Grande do Sul,2001,18.2,UF
+Rio Grande do Sul,2002,18.7,UF
+Rio Grande do Sul,2003,18.3,UF
+Rio Grande do Sul,2004,17.5,UF
+Rio Grande do Sul,2005,16.4,UF
+Rio Grande do Sul,2006,15.6,UF
+Rio Grande do Sul,2007,15.2,UF
+Rio Grande do Sul,2008,14.5,UF
+Rio Grande do Sul,2009,13.9,UF
+Rio Grande do Sul,2010,13.3,UF
+Rio Grande do Sul,2011,13.0,UF
+Rio Grande do Sul,2012,12.8,UF
+Rio Grande do Sul,2013,12.4,UF
+Rio Grande do Sul,2014,12.2,UF
+Rio Grande do Sul,2015,11.7,UF
+Rio Grande do Sul,2016,11.8,UF
+Rio Grande do Sul,2017,11.9,UF
+Rio Grande do Sul,2018,11.4,UF
+Rio Grande do Sul,2019,12.1,UF
+Rio Grande do Sul,2020,9.8,UF
+Rio Grande do Sul,2021,11.5,UF
+Rio Grande do Sul,2022,12.2,UF
+Mato Grosso do Sul,1990,38.6,UF
+Mato Grosso do Sul,1991,37.5,UF
+Mato Grosso do Sul,1992,36.5,UF
+Mato Grosso do Sul,1993,35.5,UF
+Mato Grosso do Sul,1994,34.5,UF
+Mato Grosso do Sul,1995,33.6,UF
+Mato Grosso do Sul,1996,32.6,UF
+Mato Grosso do Sul,1997,31.7,UF
+Mato Grosso do Sul,1998,30.9,UF
+Mato Grosso do Sul,1999,30.0,UF
+Mato Grosso do Sul,2000,29.2,UF
+Mato Grosso do Sul,2001,27.7,UF
+Mato Grosso do Sul,2002,26.4,UF
+Mato Grosso do Sul,2003,25.4,UF
+Mato Grosso do Sul,2004,24.9,UF
+Mato Grosso do Sul,2005,24.1,UF
+Mato Grosso do Sul,2006,23.2,UF
+Mato Grosso do Sul,2007,21.9,UF
+Mato Grosso do Sul,2008,21.8,UF
+Mato Grosso do Sul,2009,20.3,UF
+Mato Grosso do Sul,2010,18.5,UF
+Mato Grosso do Sul,2011,16.5,UF
+Mato Grosso do Sul,2012,15.8,UF
+Mato Grosso do Sul,2013,15.9,UF
+Mato Grosso do Sul,2014,15.5,UF
+Mato Grosso do Sul,2015,14.3,UF
+Mato Grosso do Sul,2016,15.9,UF
+Mato Grosso do Sul,2017,12.6,UF
+Mato Grosso do Sul,2018,13.6,UF
+Mato Grosso do Sul,2019,13.1,UF
+Mato Grosso do Sul,2020,12.8,UF
+Mato Grosso do Sul,2021,12.6,UF
+Mato Grosso do Sul,2022,15.1,UF
+Mato Grosso,1990,44.8,UF
+Mato Grosso,1991,43.6,UF
+Mato Grosso,1992,42.4,UF
+Mato Grosso,1993,41.3,UF
+Mato Grosso,1994,40.1,UF
+Mato Grosso,1995,39.0,UF
+Mato Grosso,1996,38.0,UF
+Mato Grosso,1997,36.9,UF
+Mato Grosso,1998,35.9,UF
+Mato Grosso,1999,34.9,UF
+Mato Grosso,2000,34.0,UF
+Mato Grosso,2001,31.6,UF
+Mato Grosso,2002,29.6,UF
+Mato Grosso,2003,29.1,UF
+Mato Grosso,2004,28.3,UF
+Mato Grosso,2005,27.9,UF
+Mato Grosso,2006,27.0,UF
+Mato Grosso,2007,25.8,UF
+Mato Grosso,2008,25.2,UF
+Mato Grosso,2009,24.5,UF
+Mato Grosso,2010,23.2,UF
+Mato Grosso,2011,21.8,UF
+Mato Grosso,2012,21.4,UF
+Mato Grosso,2013,22.1,UF
+Mato Grosso,2014,22.0,UF
+Mato Grosso,2015,22.2,UF
+Mato Grosso,2016,21.2,UF
+Mato Grosso,2017,18.6,UF
+Mato Grosso,2018,17.8,UF
+Mato Grosso,2019,18.3,UF
+Mato Grosso,2020,16.8,UF
+Mato Grosso,2021,16.5,UF
+Mato Grosso,2022,18.5,UF
+Goiás,1990,41.9,UF
+Goiás,1991,39.7,UF
+Goiás,1992,37.7,UF
+Goiás,1993,35.7,UF
+Goiás,1994,33.8,UF
+Goiás,1995,32.1,UF
+Goiás,1996,30.4,UF
+Goiás,1997,28.8,UF
+Goiás,1998,27.3,UF
+Goiás,1999,25.9,UF
+Goiás,2000,24.5,UF
+Goiás,2001,24.1,UF
+Goiás,2002,23.9,UF
+Goiás,2003,23.9,UF
+Goiás,2004,22.8,UF
+Goiás,2005,22.0,UF
+Goiás,2006,21.3,UF
+Goiás,2007,20.5,UF
+Goiás,2008,19.3,UF
+Goiás,2009,18.3,UF
+Goiás,2010,18.3,UF
+Goiás,2011,18.4,UF
+Goiás,2012,18.8,UF
+Goiás,2013,18.5,UF
+Goiás,2014,18.1,UF
+Goiás,2015,18.1,UF
+Goiás,2016,17.8,UF
+Goiás,2017,15.8,UF
+Goiás,2018,16.3,UF
+Goiás,2019,16.8,UF
+Goiás,2020,14.1,UF
+Goiás,2021,15.1,UF
+Goiás,2022,15.6,UF
+Distrito Federal,1990,34.5,UF
+Distrito Federal,1991,32.2,UF
+Distrito Federal,1992,30.1,UF
+Distrito Federal,1993,28.1,UF
+Distrito Federal,1994,26.3,UF
+Distrito Federal,1995,24.6,UF
+Distrito Federal,1996,23.0,UF
+Distrito Federal,1997,21.4,UF
+Distrito Federal,1998,20.0,UF
+Distrito Federal,1999,18.7,UF
+Distrito Federal,2000,17.5,UF
+Distrito Federal,2001,16.9,UF
+Distrito Federal,2002,16.5,UF
+Distrito Federal,2003,16.1,UF
+Distrito Federal,2004,15.9,UF
+Distrito Federal,2005,15.5,UF
+Distrito Federal,2006,14.6,UF
+Distrito Federal,2007,13.9,UF
+Distrito Federal,2008,13.6,UF
+Distrito Federal,2009,13.9,UF
+Distrito Federal,2010,13.8,UF
+Distrito Federal,2011,13.6,UF
+Distrito Federal,2012,13.6,UF
+Distrito Federal,2013,13.6,UF
+Distrito Federal,2014,13.1,UF
+Distrito Federal,2015,12.2,UF
+Distrito Federal,2016,11.9,UF
+Distrito Federal,2017,12.8,UF
+Distrito Federal,2018,11.5,UF
+Distrito Federal,2019,10.3,UF
+Distrito Federal,2020,10.7,UF
+Distrito Federal,2021,12.0,UF
+Distrito Federal,2022,12.2,UF
