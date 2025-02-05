@@ -6,10 +6,10 @@ import plotly.graph_objects as go
 from scipy.optimize import curve_fit 
 from sklearn.metrics import r2_score
 
-st.markdown("# Introdução")
-# Adicionar a apresentação aqui
-        
+st.set_page_config(layout="wide")
 
+def set_map(endereco):
+    st.write(f"<iframe src='http://127.0.0.1:5500/Mapas_HTML/{endereco}' width='100%' height='700'</iframe>", unsafe_allow_html=True) 
 
 def func_exp(x, a, b, c):
     return a * np.exp(b * (x - 1990)) + c
@@ -58,11 +58,11 @@ def Brazil (df, titulo):
 
 st.write("# Valores no Brasil")
 with st.expander("Brasil (1991, 2000 e 2010) - Atlas Brasil"):
-    Brazil(pd.read_csv('Dados Tratados\Atlas.csv'), 'Mortalidade Infantil no Brasil (1991-2010)')
+    Brazil(pd.read_csv('Dados Tratados\\Atlas.csv'), 'Mortalidade Infantil no Brasil (1991-2010)')
 with st.expander("Brasil (1991, 2000 e 2010 + 2020) - Atlas + IBGE (Tabela 6695)"):
-    Brazil(pd.read_csv('Dados Tratados\Atlas_ODS.csv'), 'Mortalidade Infantil no Brasil (1991-2010 + 2020)')
+    Brazil(pd.read_csv('Dados Tratados\\Atlas_ODS.csv'), 'Mortalidade Infantil no Brasil (1991-2010 + 2020)')
 with st.expander("Brasil (1990 a 2022) - IBGE (Tabela 6695)"):
-    Brazil(pd.read_csv('Dados Tratados\ODS.csv'), 'Mortalidade Infantil no Brasil (1990-2022)')
+    Brazil(pd.read_csv('Dados Tratados\\ODS.csv'), 'Mortalidade Infantil no Brasil (1990-2022)')
 
 
 
@@ -163,49 +163,78 @@ regioes['Brasil'] = regioes['Norte'] + regioes['Nordeste'] + regioes['Sudeste'] 
 
 st.write("# Valores por Região")
 with st.expander("Evolução por Região"):
-    Regioes(pd.read_csv('Dados Tratados\ODS.csv'), 'Mortalidade Infantil por Região (1990-2022)',
+    Regioes(pd.read_csv('Dados Tratados\\ODS.csv'), 'Mortalidade Infantil por Região (1990-2022)',
             ['Brasil', 'Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste'])
 with st.expander("Mapa da Evolução por Região"):
-    st.write("Em construção... (O mapa das regiões vem aqui)")
+    cols = st.columns(2)
+    with cols[0]:
+        st.write("### 2000")
+        set_map('regioes_2000.html')
+    with cols[1]:
+        st.write("### 2010")
+        set_map('regioes_2010.html')
 with st.expander("Ranking de Mortalidade Infantil por Estado"):
-    ranking_regiao(pd.read_csv('Dados Tratados\ODS.csv'), regioes)
+    ranking_regiao(pd.read_csv('Dados Tratados\\ODS.csv'), regioes)
 with st.expander("Diferença entre 1990 e 2022 por Região"):
-    evolucao_nivel(pd.read_csv('Dados Tratados\ODS.csv'), 'GR')
-
+    evolucao_nivel(pd.read_csv('Dados Tratados\\ODS.csv'), 'GR')
 
 
 
 
 st.write("# Valores por Estado")
 with st.expander("Evolução por Estado"):
-    for i in regioes:
-        if i == 'Brasil': continue
-        st.write(f"## {i}")
-        Regioes(pd.read_csv('Dados Tratados\ODS.csv'), 
-                f'Mortalidade Infantil por Estado ({i})', regioes[i]) 
+    abas = st.tabs(['Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste'])
+    for i, regiao in enumerate(['Norte', 'Nordeste', 'Sudeste', 'Sul', 'Centro-Oeste']):
+        with abas[i]:
+            Regioes(pd.read_csv('Dados Tratados\\ODS.csv'), 
+                    f'Mortalidade Infantil por Estado ({regiao})', regioes[regiao])
 with st.expander("Mapa da Evolução por Estado"):
-    st.write("Em construção... (O mapa dos estados vem aqui)")
+    cols = st.columns(2)
+    with cols[0]: 
+        st.write("### 2000")
+        set_map('estados_2000.html')
+    with cols[1]: 
+        st.write("### 2010")
+        set_map('estados_2010.html')
+with st.expander("Ano de Conclusão da Meta por Estado"):
+    set_map('mapa_anos_correto.html')
 with st.expander("Proporção de Estados que atingiram a meta por Região"):
-    proporcao_regiao(pd.read_csv('Dados Tratados\ODS.csv'), regioes)
+    proporcao_regiao(pd.read_csv('Dados Tratados\\ODS.csv'), regioes)
 with st.expander("Ranking de Mortalidade Infantil por Estado"):
-    ranking_regiao(pd.read_csv('Dados Tratados\ODS.csv'), {i:i for i in regioes['Brasil']})
+    ranking_regiao(pd.read_csv('Dados Tratados\\ODS.csv'), {i:i for i in regioes['Brasil']})
 with st.expander("Diferença entre 1990 e 2022 por Estado"):
-    evolucao_nivel(pd.read_csv('Dados Tratados\ODS.csv'), 'UF')
+    evolucao_nivel(pd.read_csv('Dados Tratados\\ODS.csv'), 'UF')
+
 
 
 st.write("# Municípios de São Paulo")
 with st.expander("Mapa dos Municípios de São Paulo"):
-    st.write("Em construção... (O mapa dos municípios de SP vem aqui)")
+    cols = st.columns(3)
+    with cols[0]:
+        st.write("### 1991")
+        set_map('munSp_1991.html')
+    with cols[1]:
+        st.write("### 2000")
+        set_map('munSp_2000.html')
+    with cols[2]:
+        st.write("### 2010")
+        set_map('munSp_2010.html')
 with st.expander("Evolução por Município"):
-    df = pd.read_csv('Dados Tratados\Atlas_Municipios_SP.csv')
+    df = pd.read_csv('Dados Tratados\\Atlas_Municipios_SP.csv')
     df['Morte5'] = df['Morte5'].apply(lambda x: x.replace(',', '.')).astype(float)
     evolucao_nivel(df, 'Mun', ini=1991, fim=2010)
 
 st.write('# "Bairros" (UDHs) do Vale do Paraíba e Litoral Norte')
 with st.expander("Mapa dos 'Bairros' do Vale do Paraíba e Litoral Norte"):
-    st.write("Em construção... (O mapa das UDHs vem aqui)")
+    cols = st.columns(2)
+    with cols[0]:
+        st.write("### 2000")
+        set_map('mapa_vale__novo2000.html')
+    with cols[1]:
+        st.write("### 2010")
+        set_map('mapa_vale__novo2010.html')
 with st.expander("Evolução por UDHs"):
-    df = pd.read_csv('Dados Tratados\Atlas_Vale.csv')
+    df = pd.read_csv('Dados Tratados\\Atlas_Vale.csv')
     df_diff = df[(df["Ano"] == 2000)]
     df_diff[2010] = df[df["Ano"] == 2010]["Morte5"].values
     df_diff['Variação'] = df_diff[2010] - df_diff['Morte5']
@@ -213,3 +242,4 @@ with st.expander("Evolução por UDHs"):
     df_diff = df_diff.drop(columns=["Ano"]).sort_values("Variação", ascending=True).reset_index(drop=True)
     df_diff.columns = [i if i != "Morte5" else 2000 for i in df_diff.columns]
     st.dataframe(df_diff, use_container_width=True, hide_index=True)
+    
